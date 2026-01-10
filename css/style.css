@@ -1,0 +1,265 @@
+/*
+Global Styles
+*/
+body {
+    padding-top: 80px; /* Space for fixed navbar */
+}
+
+/*
+header begins
+*/
+.onyeka{
+    height: 45px;
+    border-radius: 150px;
+}
+/*
+header ends
+=======================================
+hero section begins
+*/
+.modi img{
+    height: 500px;
+    object-fit: cover;
+}
+@media (max-width: 768px) {
+    .modi img {
+        height: 300px; /* Smaller height for mobile */
+    }
+}
+/*
+hero section ends
+=======================================
+main begins
+*/
+#main{
+    width: 100%;
+    height: auto;
+}
+#main span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about ul{
+    list-style: none;
+    padding-left: 0;
+}
+.about ul li{
+    padding: 3px 0;
+}
+.about a{
+    border: 1px solid green;
+    padding: 10px 25px;
+    color: green;
+}
+.about a:hover{
+    border: 1px solid green;
+    padding: 10px 25px;
+    color: white;
+    background-color: green;
+}
+.deki{
+    /* margin-top: 70px; Removed, handled by body padding */
+}
+.services img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.services h4 a{
+    text-decoration: none;
+    color: green;
+}
+.services .saviour{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+    border-radius: 7px;
+}
+.services .saviour:hover{
+    background-color: green;
+    padding: 20px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+    border-radius: 7px;
+    cursor: alias;
+}
+.services .saviour:hover h4 a,
+.services .saviour:hover p{
+    color: white;
+}
+/*
+service ends
+===========================
+product begins
+*/
+.product .pro{
+    width: 100%;
+}
+.product .pro:hover{
+    width: 100%;
+    background-color: green;
+}
+.product .pro img{
+    height: 300px;
+    object-fit: cover;
+}
+.pro a{
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+}
+.pro a:hover{
+    border: 1px solid green;
+    border-radius: 25px;
+    background-color: white;
+    color: green;
+}
+.pro h5{
+    color: green;
+}
+.product .pro:hover h5,
+.product .pro:hover p{
+    color: white;
+}
+.product .pro:hover a{
+    background-color: white;
+    color: green;
+    border: 1px solid white;
+}
+/*
+product ends
+===========================
+portfolio begins
+*/
+.portfolio .ulonma{
+    background-image: url(../image/beautiful-view-construction-site-city-sunset.jpg);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.portfolio .ulonma:hover{
+    background-image: url(../image/beautiful-view-construction-site-city-sunset.jpg);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: obioma 1s linear forwards;
+}
+@keyframes obioma {
+    from{background-size: 600px;}
+    to{background-size: 800px;}
+}
+.portfolio .ulonma .egoyibo{
+    height: 75px;
+    background-color: green;
+    float: left;
+    padding: 5px;
+    display: none;
+}
+.portfolio .ulonma:hover .egoyibo{
+    display: block;
+    opacity: 0.75;
+}
+.portfolio .ulonma .egoyibo p{
+    padding: 0 5px;
+    float: left;
+    color: white;
+}
+.portfolio .ulonma .egoyibo a{
+    border: 1px solid white;
+    background-color: white;
+    color: green;
+    padding: 4px 15px;
+    float: right;
+}
+/*
+portfolio ends
+===========================
+blog begins
+*/
+.blog .my_blog{
+    width: 100%;
+}
+.blog .my_blog:hover{
+    width: 100%;
+    background-color: green;
+}
+.blog .my_blog img{
+    height: 300px;
+    object-fit: cover;
+}
+.blog .my_blog h5{
+    color: green;
+}
+.blog .my_blog a{
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+}
+.blog .my_blog a:hover{
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+}
+.blog .my_blog:hover h5,
+.blog .my_blog:hover p{
+    color: white;
+}
+.blog .my_blog:hover a{
+    border: 1px solid white;
+    background-color: white;
+    color: green;
+}
+/*
+blog ends
+===========================
+contact begins
+*/
+.map{
+    height: 288px;
+}
+.contact .amuche{
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+    box-shadow: 0 3px 3px 2px gainsboro;
+    padding: 20px;
+}
+.contact .amuche h4{
+    color: green;
+}
+/*
+contact ends
+=====================================
+footer begins
+*/
+.footer ul{
+  list-style: none;
+  padding-left: 0;
+}
+.footer ul li{
+    padding: 3px 0;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+    color: green;
+}
+.footer h6{
+    color: green;
+}
+.footer ul li i{
+    color: green;
+    margin-right: 8px;
+}
+.oge{
+    margin-top: 100px;
+}
