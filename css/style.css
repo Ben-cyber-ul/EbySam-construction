@@ -188,7 +188,7 @@ blog begins
 }
 .blog .my_blog:hover{
     width: 100%;
-    background-color: green;
+    background-color:lightgray;
 }
 .blog .my_blog img{
     height: 300px;
@@ -205,7 +205,7 @@ blog begins
 .blog .my_blog a:hover{
     border: 1px solid green;
     background-color: white;
-    color: green;
+    color:brown;
 }
 .blog .my_blog:hover h5,
 .blog .my_blog:hover p{
@@ -214,7 +214,7 @@ blog begins
 .blog .my_blog:hover a{
     border: 1px solid white;
     background-color: white;
-    color: green;
+    color:gray;
 }
 /*
 blog ends
